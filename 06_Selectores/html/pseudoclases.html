@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Clases</title>
+    <style>
+
+        /***** https://www.w3schools.com/css/css_pseudo_classes.asp *****/
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .hover:hover { /* Se activa en cuanto el raton pasa por encima */
+            background-color: burlywood;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        .listado p:first-child {
+            color: white;
+        }
+
+        .enlace {
+            padding: 15px;
+
+        }
+
+        a:link { /* Link no visitado aún */
+            color: deeppink;
+        }
+        a:visited { /* Link visitado */
+            color: crimson;
+        }
+        a:hover { /* encima del link */
+            color: pink;
+        }
+        a:active { /* Link activo/clic */
+            color: greenyellow;
+        }
+            
+    </style>
+
+</head>
+<body>
+    <div class="hover">
+        <p>Voluptate eiusmod officia sit eiusmod pariatur ut et culpa do dolor sint. Veniam exercitation ea elit qui pariatur anim ut amet nulla nulla ea aliquip adipisicing. Anim culpa cillum amet elit anim. Ullamco esse sint eu nulla anim ex aliqua ex ea.</p>
+    </div>
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://www.google.es" target="_blank">Enlace a google</a>
+        <a href="https://www.marca.com" target="_blank">Enlace a Marca</a>
+    </div>
+</body>
+</html>

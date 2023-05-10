@@ -1,0 +1,52 @@
+/* Estilos para colores */
+.colores {
+    color: orangered;
+}
+
+.color-hexadecimal {
+    color: #b33a2f;
+}
+
+.color-rgb {
+    color: rgb(80, 56, 215)
+}
+
+.color-rgba {
+    color: rgba(41, 215, 79, 0.5)
+}
+
+/* Fondos */ 
+.fondo {
+    color:white;
+    /* background-color: cornflowerblue; */
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/89a052ddc6d368ce93d9067e8444c36a3558efe7/f9e10/static/triangle_background2-6eded4a7ad80c007fb65f02c828e5dd0.jpg);
+    background-position: left bottom;
+
+}
+
+.fondo-interno {
+    background-image: url(../03_Multimedia/imagenes/logoHTML.png);
+    background-position: center;
+}
+
+
+/******* Tamaños ***********/
+
+.ancho {
+    background-color:aquamarine;
+    width: 100px;
+}
+.alto {
+    background-color:rgb(219, 233, 56);
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(150,150, 150);
+    border-width: 1px;
+    padding: 2%;
+    margin: 5px;
+}

@@ -1,0 +1,43 @@
+.body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+div {
+    padding: 10px 20px;
+}
+
+
+.contenedor {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.seccionNav {
+    background-color: aquamarine;
+}
+
+.seccionMain {
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    .contenedor {
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+
+    .seccionNav {
+        display: flex;
+        justify-content: space-around;
+        height: 10vh;
+    }
+}

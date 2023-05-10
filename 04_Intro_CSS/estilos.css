@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+/* Estoy probando Colores y fuentes */
+p {
+    color: darkblue;
+    font-size: 16px;
+}
+
+/* Selectores de ID con # */
+#primera-noticia {
+color: green;
+font-size: 12px;
+}
+
+#primera-noticia {
+    color: darkmagenta;
+    font-size: 14px;
+}
+
+
+/* Selectores de Clase con . */ 
+.encabezado {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* Selector universal // Ej. Todos los elementor con la clase warning */
+* .warning {
+    color: red;
+}
+
+.autor, .fecha, .ubicacion {
+    text-decoration: underline;
+} 
